@@ -1,0 +1,554 @@
+/* @import url('https://fonts.google@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,800&family=Roboto+Condensed:ital,wght@0,400;1,300;1,400&family=Roboto+Flex:wght@200;300;600;700&display=swap');apis.com/css2?family=Coiny&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,800&family=Roboto+Flex:wght@200;300;600;700&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    background-color:rgb(240, 221, 221);
+}
+
+
+
+/* home section start */
+
+.home{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: url(../images/home-banner.jpg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+}
+
+.sub-content{
+    font-size: 20px;
+    color: #002347;
+    font-weight: 600;
+}
+
+.main-content{
+    font-size: 50px;
+    color: #002347;
+    font-weight: 600;
+}
+
+.home-btn .primary-btn2{
+    display: inline-block;
+    background: #fdc632;
+    padding: 0px 48px;
+    color: #002347;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.primary-btn2:hover{
+    background: #002347;
+    color: #fdc632;
+}
+
+.home-btn .primary-btn1{
+    display: inline-block;
+    background: #002347;
+    padding: 0px 48px;
+    color: #fdc632;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.primary-btn1:hover{
+    color: #002347;
+    background: #fdc632;
+}
+
+/* home section end */
+
+
+
+
+/* features star */
+
+.features{
+    padding-top: 200px;
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+.main-title h2{
+    color: #002347;
+    font-size: 45px;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: 'Coiny', cursive;
+}
+
+.main-title p{
+    font-size: 16px;
+    line-height: 50px;
+    font-family:'Roboto Condensed', sans-serif;
+    font-style: italic;
+    color: #7b838a;
+}
+
+
+
+
+.card1{
+    position: relative;
+    background: #f9f9ff;
+    padding: 40px 36px;
+    margin-bottom: 30px; 
+    transition: all 0.3s ease 0s;
+}
+
+.card1 i{
+    font-size: 25px;
+    color: #002347;
+    padding-bottom: 30px;
+}
+.card1 h4{
+    text-align: left;
+    font-weight: 600;
+    color: #002347;
+}
+
+.card1 p{
+    text-align: left;
+    font-size: 14px;
+    color: #7b838a;
+}
+
+
+.card1:hover{
+    box-shadow: 0px 10px 30px rgba(0, 35, 71, 0.1);
+}
+
+/* features end */
+
+
+
+
+
+/* course start */
+
+.course{
+    padding-bottom: 100px;
+}
+
+
+
+
+.main-title2 h2{
+    color: #002347;
+    font-size: 45px;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: 'Coiny', cursive;
+}
+
+.main-title2 p{
+    font-size: 16px;
+    line-height: 50px;
+    font-family:'Roboto Condensed', sans-serif;
+    font-style: italic;
+    color: #7b838a;
+}
+
+
+.course-card{
+    color: #002347;
+    background-color:#f9f9ff;
+    width: 330px;
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+    position: relative;
+}
+.course-card-body{
+    padding: 30px 26px;
+    transition: all 0.3s ease 0s;
+}
+
+.course-card .course-card-title{
+    color: #fdc632;
+}
+
+.course-card-body .course-btn{
+    text-decoration: none;
+    color: white;
+    background-color: #002347;
+    font-size: 13px;   
+    padding: 5px 21px;
+}
+
+.course-card img{
+    transition: all 0.3s ease 0s;
+}
+
+.course-card img:hover{
+    transform: scale(1.2);   
+}
+
+
+.course-card:hover{
+    background-color: white;
+    box-shadow: 0px 10px 30px rgba(0, 35, 71, 0.1);
+}
+
+
+.course-card .cost{
+    width: 65px;
+    height: 65px;
+    background-color: #fdc632;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 200px;
+    right: 15px;
+    text-align: center;
+    line-height: 65px;
+    font-weight: 600;
+}
+/* course end */
+
+
+
+
+
+
+
+
+/* Registration area start */
+
+/* left section start */
+
+.registration-area{
+   
+    background-color: #002347;
+    padding: 130px 0;
+}
+
+
+.clock-section{
+    color: white;
+}
+
+.clock-section h1{
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.clock-section p{
+    font-size: 16px;
+    margin: 0px 0px 16px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+
+.innerclock{
+    background: #334f6c;
+    padding: 35px 20px;
+    margin-right: 15px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    margin-top: 65px;
+    transition: all 0.3s ease-in-out;
+}
+
+.innerclock h1{
+    font-size: 36px;
+    display: inline-block;
+}
+
+.innerclock span{
+    font-size: 16px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.innerclock:hover{
+    transform: scale(.9);
+}
+/* left section end */
+
+
+
+/* right section start */
+
+
+.register-form{
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.register-form h3{
+    color: black;
+    font-weight: 600;
+    font-size: 25px;
+   
+}
+
+.register-form p{
+    color: #7b838a;
+    margin-top: 0;
+    font-size: 15px;
+}
+
+
+.register-form input{
+    border: none;
+    border-bottom: 1px solid #b9bfc5;
+    outline: none;
+    padding: 12px;
+    width: 100%;
+    background-color: white;
+    font-size: 14px;
+}
+
+.register-form input::placeholder{
+    font-size: 14px;
+    font-weight: 500;
+    color: #b9bfc5;
+}
+
+.register-form .form-btn{
+    text-align: center;
+    margin-top: 30px;
+    background-color: #fdc632;
+    color: #002347;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+
+.register-form .form-btn:hover{
+    color: #fdc632;
+    background-color: #002347;
+}
+/* right section end */
+
+/* Registration area end */
+
+
+
+
+
+
+/* trainers section start*/
+
+.trainers{
+    padding-top: 130px;
+    padding-bottom: 100px;
+}
+
+.trainers .trainer-title{
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+.trainer-title h1{
+    font-size: 40px;
+    line-height: 30px;
+    font-weight: bold; 
+    color: #002347;
+}
+
+.trainer-title p{
+    font-size: 16px;
+    font-style: italic;
+    color: #7b838a;
+}
+
+.trainer-card{
+    width: 255px;
+}
+
+.trainer-card img{
+    width: 100%;
+    height: auto;
+}
+
+.trainer-card .content{
+    padding: 20px 25px;
+    box-shadow: 0px 0px 30px rgba(153, 153, 153, 0.13);
+    transition: all 0.3s ease 0s;
+    background: #ffffff;
+    text-align: center;
+}
+
+
+.trainer-card .content h4{
+    color: #002347;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.trainer-card .content p{
+    color:#7b838a;
+    font-size: 15px;
+}
+
+/* trainers section end*/
+
+
+
+
+
+/* event section start */
+
+.event{
+    background-color: #002347;
+    padding: 130px 0px 100px;
+}
+
+
+.event .event-title{
+    text-align: center;
+}
+
+.event .event-title h1{
+    color: white;
+    font-family: 'Coiny', cursive;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+.event .event-title p{
+    color:#7b838a;
+    font-size: 15px;
+    
+}
+
+
+.event-card{
+    overflow: hidden;
+}
+
+.event-card img{
+    transition: all 0.3s ease-in-out;
+    filter: grayscale(100%);
+}
+
+.event-card .event-details{
+    position: relative;
+    background: rgba(0, 35, 71, 0.5);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 275px;
+    padding: 30px 30px;
+    color: #ffffff;
+}
+
+
+
+.event-card .event-details .date{
+    color: #ffffff;
+    padding-right: 10px;
+    border-right: 2px solid #fff;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    height: 50px;
+}
+
+.event-card .event-details .date span{
+    color:#fdc632;
+    font-size: 16px;
+}
+
+.event-card .event-details .event-location{
+    padding-left: 10px;
+    font-size: 14px;
+}
+.event-card .event-content .bottom-p{
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.event-card .event-details .event-btn{
+    display: inline-block;
+    background: #fdc632;
+    padding: 0px 48px;
+    color: #002347;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 50px;
+    outline: none;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+
+
+.event-card .event-details .event-btn:hover{
+    background-color: #002347;
+    color: #fdc632;  
+}
+
+
+.event-card:hover img{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+
+/* event section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* font family */
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Flex', sans-serif;
+font-family: 'Coiny', cursive;
+font-family: 'Roboto Condensed', sans-serif; */
